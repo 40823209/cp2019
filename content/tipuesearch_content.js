@@ -1,1 +1,1 @@
-var tipuesearch = {"pages": [{'title': 'About', 'text': 'http://mde.tw/cp2019 \xa0 \n 報到.pdf \n', 'tags': '', 'url': 'About.html'}, {'title': 'USB', 'text': '', 'tags': '', 'url': 'USB.html'}, {'title': 'USB2', 'text': '', 'tags': '', 'url': 'USB2.html'}]};
+var tipuesearch = {"pages": [{'title': 'About', 'text': 'http://mde.tw/cp2019 \xa0 \n https://dartpad.dev?id=9300eaa9acb1dde5d524392ac294751d\xa0 \n', 'tags': '', 'url': 'About.html'}, {'title': 'USB', 'text': '', 'tags': '', 'url': 'USB.html'}, {'title': 'USB2', 'text': '', 'tags': '', 'url': 'USB2.html'}]};
