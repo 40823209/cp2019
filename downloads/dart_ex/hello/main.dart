@@ -1,3 +1,3 @@
-main(){
-    print("hello");
+void main() {
+    print("Hello, World!");
 }
