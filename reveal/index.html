@@ -39,15 +39,15 @@
 <div class="slides">
 <section data-markdown>
     <script type="text/template">
-## CMSimfly 網際內容管理
+## 40823209 網際內容管理
 
-### KMOLab
+### [40823209](https://40823209.github.io/cp2019/content/index.html)
 
 <small>
 Created by [KMOLab](http://lab.kmol.info/)
 </small>
 
-[CMSimfly 網誌](./../blog/index.html)
+[40823209 網誌](https://40823209.github.io/cp2019/blog/index.html)
 
 
     </script>
@@ -57,14 +57,13 @@ Created by [KMOLab](http://lab.kmol.info/)
 						
 <section data-markdown>
     <script type="text/template">
-# 投影片快捷鍵
+# 目錄
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+* [國旗](https://40823209.github.io/cp2019/reveal/index.html#/2)
+* [溫度轉換](https://40823209.github.io/cp2019/reveal/index.html#/2/1)
+* [重量轉換](https://40823209.github.io/cp2019/reveal/index.html#/2/2)
+* [心得分享](https://40823209.github.io/cp2019/reveal/index.html#/3)
+
 
     </script>
 </section>
@@ -76,76 +75,31 @@ Created by [KMOLab](http://lab.kmol.info/)
 # 國旗
 
 <p><iframe height="600" id="iframe" src="https://dartpad.github.io/embed-html.html?gh_owner=40823209&gh_repo=cp2019&gh_path=downloads/dart_ex/flag&theme=dark" width="800"></iframe></p>
+# 溫度轉換
+
+<p><iframe height="600" id="iframe" src="https://dartpad.github.io/embed-html.html?gh_owner=40823209&gh_repo=cp2019&gh_path=downloads/dart_ex/cf1&theme=dark" width="800"></iframe></p>
+# 重量轉換
+
+<p><iframe height="600" id="iframe" src="https://dartpad.github.io/embed-html.html?gh_owner=40823209&gh_repo=cp2019&gh_path=downloads/dart_ex/weight_change&theme=dark" width="800"></iframe></p>
     </script>
 </section>
-
-
-						
-<section>
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-# 數學符號與方程式
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-    </script>
-</section>
-
 
 
 						
 <section data-markdown>
     <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
+# 心得分享
 
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
-    </script>
-</section>
-
-
-
-						
-<section data-markdown>
-    <script type="text/template">
-## 使用 iframe 導入影片
-
-### 導入影片 template
-
-<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+因為本身是精密機械科的背景，所以在學習Github、Dart方面有些吃力，而且有些專業術語都不知道，所以在寫個人網頁時很辛苦。
+但在經過同組的討論與講解後，慢慢開始對於寫程式有稍微認識了。
+也很謝謝組員跟對長的指引與老師專業的教學。
+最後也希望未來能更努力的去學習寫程式
+以上報告 謝謝大家
     </script>
 </section>
 
 
 						
-</section>
-
 </div>
 
 </div>
