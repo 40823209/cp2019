@@ -26,8 +26,12 @@
 </v>
 <v t="leo.20200108213705.1"><vh>newHeadline</vh>
 <v t="leo.20200108213718.1"><vh>國旗</vh></v>
-<v t="leo.20200108215512.1"><vh>溫度轉換</vh></v>
+</v>
+<v t="leo.20200108222553.1"><vh>newHeadline</vh>
 <v t="leo.20200108215752.1"><vh>重量轉換</vh></v>
+</v>
+<v t="leo.20200108222539.1"><vh>123</vh>
+<v t="leo.20200108215512.1"><vh>溫度轉換</vh></v>
 </v>
 <v t="leo.20200108221531.1"><vh>newHeadline</vh>
 <v t="leo.20200108215918.1"><vh>心得分想</vh></v>
@@ -268,6 +272,22 @@ vertical: body pane on the botton</t>
 最後也希望未來能更努力的去學習寫程式
 以上報告 謝謝大家</t>
 <t tx="leo.20200108221531.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						</t>
+<t tx="leo.20200108222539.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						</t>
+<t tx="leo.20200108222553.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
